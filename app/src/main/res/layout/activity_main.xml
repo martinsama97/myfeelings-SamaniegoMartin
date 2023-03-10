@@ -65,7 +65,7 @@
                         android:layout_marginHorizontal="10dp"
                         android:src="@drawable/ic_sad"
                         android:background="@android:color/transparent"
-                        android:id="@+id/SadButton"
+                        android:id="@+id/sadButton"
                         />
 
                     <ImageButton

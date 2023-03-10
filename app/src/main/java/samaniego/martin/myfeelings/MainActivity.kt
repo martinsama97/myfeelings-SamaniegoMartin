@@ -8,10 +8,10 @@ import samaniego.martin.myfeelings.utilities.customBarDrawable
 import samaniego.martin.myfeelings.utilities.CustomCircleDrawable
 import samaniego.martin.myfeelings.utilities.Emociones
 import samaniego.martin.myfeelings.utilities.JSONFile
+import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
-import kotlinx.android.synthetic.main.activity_main.xml
 
 class MainActivity : AppCompatActivity() {
 
@@ -145,7 +145,7 @@ class MainActivity : AppCompatActivity() {
         lista.add(Emociones("Feliz", pVH, R.color.orange, happy))
         lista.add(Emociones("Neutral", pVH, R.color.greenie, neutral))
         lista.add(Emociones("Triste", pVH, R.color.blue, sad))
-        lista.add(Emociones("Muy triste", pVH, R.color.deepBlue, verySad))
+        lista.add(Emociones("Muy triste", pVH, R.color.deepBlue, verysad))
 
         val fondo = CustomCircleDrawable(this, lista)
 
@@ -198,5 +198,4 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this,"Datos guardados", Toast.LENGTH_SHORT).show()
     }
-}
 }
