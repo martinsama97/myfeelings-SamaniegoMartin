@@ -11,6 +11,7 @@ import samaniego.martin.myfeelings.utilities.JSONFile
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject
+import kotlinx.android.synthetic.main.activity_main.xml
 
 class MainActivity : AppCompatActivity() {
 
